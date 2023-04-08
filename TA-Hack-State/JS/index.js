@@ -4,6 +4,16 @@ const c = canvas.getContext('2d')
 canvas.width = 1024
 canvas.height = 576
 
+
+class Sprite {
+    constructor() {
+        this.position = position
+        this.image= new Image()
+        this.image.src = ''
+    }
+
+}
+
 const player = new Player
 
 const keys = {
