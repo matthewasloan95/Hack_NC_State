@@ -4,15 +4,23 @@ const c = canvas.getContext('2d')
 canvas.width = 1024
 canvas.height = 576
 
-
 class Sprite {
-    constructor() {
+    constructor({position}) {
         this.position = position
         this.image= new Image()
-        this.image.src = ''
+        this.image.src = './img/backgroundLevel1.png'
     }
-
+    draw() {
+        c.drawImage(this.image, this.position.x, this.position.y)
+    }
 }
+
+const backgroundLevel1 = new Sprite({
+    position: {
+        x: 0,
+        y: 0,
+    }
+})
 
 const player = new Player
 
@@ -32,6 +40,8 @@ function animate(){
     c.fillStyle = 'white'
     c.fillRect(0, 0, canvas.width, canvas.height)
 
+    backgroundLevel1.draw()
+    
     player.velocity.x = 0
     if (keys.d.pressed) player.velocity.x  = 5
     else if (keys.a.pressed) player.velocity.x = -5
