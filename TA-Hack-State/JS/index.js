@@ -40,7 +40,7 @@ let doors
         frameRate: 8,
         frameBuffer: 11,
         loop: false,
-        imageSrc: './img/king/enterDoor.png',
+        imageSrc: './img/king/pdEnterDoor.png',
         onComplete: () => {
             console.log('completed animation')
             gsap.to(overlay, {
@@ -51,7 +51,7 @@ let doors
                 //remove later
                 if (level === 4) level = 1
                 levels[level].init()
-                player.switchSprite('idleRight')
+                player.switchSprite('pdIdleRight')
                 player.preventInput = false
                 gsap.to(overlay, {
                 opacity: 0,
