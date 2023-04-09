@@ -28,13 +28,13 @@ let doors
         frameRate: 8,
         frameBuffer: 11,
         loop: true,
-        imageSrc: './img/king/runRight.png',
+        imageSrc: './img/king/pdRunRight.png',
         },
         runLeft: {
         frameRate: 8,
         frameBuffer: 11,
         loop: true,
-        imageSrc: './img/king/runLeft.png',
+        imageSrc: './img/king/pdRunLeft.png',
         },
         enterDoor: {
         frameRate: 8,
@@ -51,7 +51,7 @@ let doors
                 //remove later
                 if (level === 4) level = 1
                 levels[level].init()
-                player.switchSprite('pdIdleRight')
+                player.switchSprite('idleRight')
                 player.preventInput = false
                 gsap.to(overlay, {
                 opacity: 0,
