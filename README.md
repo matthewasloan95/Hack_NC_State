@@ -26,4 +26,4 @@ We understand that in this day and age young folk are more inclined to learn thr
 * Do Giant Pandas help: https://www.sciencedirect.com/science/article/pii/S0048969723018053
 
 In case you ever wondered what it would look like if you put all of the wild Giant Pandas in the **world** in a single room...
-![Giant panda](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/20/1421758745196/69245c20-5cd4-4c2f-ac9e-0a094f380946-1360x2040.jpeg?width=620&quality=45&dpr=2&s=none )Courtesy of The Guardian: https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/20/1421758745196/69245c20-5cd4-4c2f-ac9e-0a094f380946-1360x2040.jpeg?width=620&quality=45&dpr=2&s=none
+![Giant panda](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/20/1421758745196/69245c20-5cd4-4c2f-ac9e-0a094f380946-1360x2040.jpeg?width=620&quality=45&dpr=2&s=none )[Courtesy of The Guardian](https://www.theguardian.com/science/animal-magic/2015/jan/20/how-many-giant-pandas-china-census-survey)
