@@ -2,7 +2,7 @@
 TJ, Rishabh, Mytien and Matt Hack NCSU 2023
 
 ## There are likely fewer than 2,000 Giant Pandas in the wild!
-Honestly, unacceptable. But there's hope! It turns out that there is a statistically significant and positive correlation between Giant Panda density and species richness. 
+Honestly, unacceptable. But there's hope! It turns out that there is a statistically significant and positive correlation between Giant Panda density and species richness.  
  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;**What does this mean for us??**
  It means we can both reduce climate change and help Giant Pandas!   
   &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;**How, you ask?**
