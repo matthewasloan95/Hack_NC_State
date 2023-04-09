@@ -16,12 +16,13 @@
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.1/jquery.hoverIntent.min.js"></script>
-<script src="../static/js/hamburger.js"></script>
-<script src="../static/js/routePopUp.js"></script>
+<script src="../static/js/hams.js"></script>
+
+
 <!-- User-specific navigation bar -->
 <header>  
     <div class="nav" id="user-nav">
-        <a href = "/" class="logo"><img src="../static/img/btmwp-logo.png" alt="BTMWP Logo" width="150"></a>
+        <a href = "/" class="logo"><img src="../static/img/Logo.png" alt="Logo" width="150"></a>
     </div>
     <hr>
 <!-- General navigation bar -->
@@ -34,17 +35,15 @@
             </button>
             <!-- Navigation links (hidden by default) -->
             <div class="dropdown-content" id="dropdownLinks">
-                <a href = "/routes">Pandas = Saving the World?</a>
-                <a href="/dataVisuals"></a>
-                <a href="/alerts">Bus Alerts</a>
+                <a href = "/ideaInfo">Pandas = Saving the World?</a>
+                <a href = "/globalSeq">So Global Sequestration Huhh</a>
+                <a href="/saveThemPandas">Learn more about Pandas</a>
             </div>
         </div>
 
         <!-- TODO: if user is not logged in, don't show profile icon in navbar-->
-        <a href = "/profile"><i class="fa-solid fa-user profile-icon"></i></a> 
+        <a href = "/game">Panda Escape</i></a> 
         
-        <!-- Once user is logged in, Login should not be seen in profile-->
-        <a class="profile-icon" href="/login">Login</a>  
     </div>
 </header> 
 <!-- Flash messages -->
@@ -59,7 +58,8 @@
 {% endblock %}
 
 <footer>
-    <span class="copyright">&copy;Pandas For ALL</span>
+    <span class="copyright">&copy;Pandas For All</span>
     <a class="footer-link" href="/about">ABOUT</a>
-    <a class="footer-link" href="/contact">CONTACT</a>
+    <a class="footer-link" href="/infoResources">Info Resources</a>
 </footer>
+

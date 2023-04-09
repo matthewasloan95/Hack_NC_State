@@ -90,14 +90,14 @@ tr:nth-child(even){background-color: #d5ceb5;}
 
     #user-nav a, button {
 
-        color: white;
+        color: #0f1d3c;
         padding: 10px;
         float: right;
         display: block;
     }
 
-    .profile-icon {
-        color: white;
+    .game-icon {
+        color: #0f1d3c;
         padding: 10px;
         float: right;
         display: block;
@@ -112,7 +112,7 @@ tr:nth-child(even){background-color: #d5ceb5;}
         font-size: 16px;  
         border: none;
         outline: none;
-        color: white;
+        color: #0f1d3c;
         padding: 10px;
         background-color: inherit;
         font-family: inherit;

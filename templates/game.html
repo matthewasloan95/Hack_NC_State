@@ -1,0 +1,30 @@
+<html lang="en">
+    {% extends "layout.html" %}
+    <head>
+        <title>Panda Escape</title>
+    </head>
+    <body>
+        {% block content %}
+        <main>
+            <div id="welcome">
+                <h1>Panda Escape</h1>
+                <div id = "description">
+                   <canvas></canvas>
+                </div>
+            </div>
+        </main>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+        integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        ></script>
+        <script src="../static/js/utils.js"></script>
+        <script src="../static/js/data/collisions.js"></script>
+        <script src="../static/js/classes/CollisionBlock.js"></script>
+        <script src="../static/js/classes/Sprite.js"></script>
+        <script src="../static/js/classes/Player.js"></script>
+        <script src="../static/js/eventListeners.js"></script>
+        <script src="../static/js/index.js"></script>
+    {% endblock %}
+</body></html>
