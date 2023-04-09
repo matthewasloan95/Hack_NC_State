@@ -8,9 +8,43 @@ import geopandas as gpd
 # # create Flask app
 app = Flask(__name__, template_folder='templates')
 
+
+
+# Route for home page
+@app.route("/")
+def home():
+    return render_template('index.html')
+
+# Route for about page
+@app.route("/about/")
+def about():
+    return render_template('about.html')
+
+# Route for infoResource page
+@app.route("/infoResources/")
+def infoResources():
+    return render_template('infoResources.html')
+
+# Route for game page
+@app.route("/game/")
+def game():
+    return render_template('game.html')
+
+# Route for more info on Ideas page
+@app.route("/ideaInfo/")
+def ideaInfo():
+    return render_template('inDepth.html')
+
+
+
+# Route for editing the profile page
+@app.route("/saveThemPandas/")
+def saveThePands():
+    return render_template('saveThemPandas.html')
+
 # # define route to display map
-@app.route('/')
-def index():
+@app.route('/globalSeq/')
+def globalSeq():
 
     # read in the shapefile and soil data
     states = gpd.read_file('data/cb_2018_us_state_500k.shp')
