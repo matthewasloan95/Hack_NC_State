@@ -32,7 +32,7 @@ def index():
     final_gdf = final_gdf.drop(['geometry_x', 'geometry_y'], axis=1)
 
     # create the map using folium
-    m = folium.Map(location=[39.8283, -98.5795], zoom_start=4)
+    m = folium.Map(location=[39.8283, -98.5795], zoom_start=4, width='50%', height='50%')
 
     # add the GeoJSON layer to the map
     folium.GeoJson(final_gdf).add_to(m)
