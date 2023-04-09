@@ -22,5 +22,5 @@ We understand that in this day and age young folk are more inclined to learn thr
 
 #### Where we got our data from
 * Shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
-* West US carbon sequestration: https://data.nal.usda.gov/dataset/data-carbon-sequestration-and-biodiversity-co%E2%80%90benefits-preserving-forests-western-united-states
+* West US carbon sequestration dataset: https://data.nal.usda.gov/dataset/data-carbon-sequestration-and-biodiversity-co%E2%80%90benefits-preserving-forests-western-united-states
 * Do Giant Pandas help: https://www.sciencedirect.com/science/article/pii/S0048969723018053
