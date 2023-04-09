@@ -1,0 +1,290 @@
+html {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Unbounded', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    height: 130px;
+    padding: 25px;
+    text-align: center;
+    background-color: #0f1d3c;
+} 
+
+.error {
+    text-decoration: underline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+ul.none{
+    list-style: none;
+    padding: 5px;
+}
+
+button.no-border {
+    background: none;
+    border: none;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+}
+
+table {
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+th, td {
+    text-align: center;
+    border: 1px solid #2d71b0;
+    padding: 8px;
+}
+
+.dark-icon {
+    text-align: center;
+    color:black
+}
+
+tr:nth-child(even){background-color: #d5ceb5;}
+
+/** Styling for navigation bars **/
+    #nav-bar {
+        position: relative;
+        background-color: #0f1d3c;
+        overflow: hidden;
+    }
+
+    hr {
+        color: #2d71b0;
+    }
+
+    #user-nav {
+        overflow: hidden;
+    }
+
+    #user-nav a.logo {
+        float: left;
+        display: inherit;
+        justify-content: center;
+    }
+
+    #user-nav a, button {
+
+        color: white;
+        padding: 10px;
+        float: right;
+        display: block;
+    }
+
+    .profile-icon {
+        color: white;
+        padding: 10px;
+        float: right;
+        display: block;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 10px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        text-decoration: underline;
+      }
+
+/** Styling the footer **/
+    footer {
+        height:30px;
+        padding: 10px;
+        background-color: #0f1d3c;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .footer-link, .copyright {
+        color: white;
+        padding: 9px;
+        display: inline;
+    }
+
+    .footer-link:hover {
+        text-decoration: underline;
+    }
+    /** Styling the footer icons **/
+    #left {
+        text-align: left;
+    }
+
+    .fa-brands {
+        color: white;
+        margin-right: 25px;
+        float: right;
+        display: inline;
+    } */
+
+/** Styling index.html elements **/
+    #description {
+        width: 100%;
+        display: inline-block;
+    }
+
+    #welcome {
+        width: 100%;
+        margin: auto;
+    } 
+
+/** Styling the events.html page **/
+    #events {
+        width: 100%;
+        margin: auto;
+    }
+
+    #events a:hover {
+        text-decoration: underline;
+    } */
+
+/** Styling the event.html page **/
+    #content {
+        display: inline-block;
+    }
+
+    .profile-img {
+        width: 100%;
+        max-width: 400px;
+        height:auto;
+    }
+
+    #header {
+        overflow: hidden;
+        display: flex;
+    }
+
+    /* #event-details {
+        display: inline-block;
+        width: 60%;
+        padding: 20px;
+    } */
+
+    #icons {
+        color: #0f1d3c;
+        padding: 20px;
+    }
+
+/** Styling newEvent.html (form elements) **/
+    input, select, textarea {
+        box-sizing: border-box;
+        resize: vertical;
+        font-family: 'Work Sans', sans-serif;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .div-form {
+        padding: 15px;
+        border-radius: 7px;
+    }
+
+    .form-label {
+        float: left;
+        width: 10%;
+    }
+
+    .form-input {
+        float: left;
+        width: 90%;
+    }
+
+    /* CSS to style pop ups on the Routes */
+    .popup {
+        display: none;
+        position: absolute;
+        background-color: white;
+        border: 1px solid black;
+        padding: 10px;
+     }
+     .hover-content {
+        display: none;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border: 1px solid black;
+     }
+     #hover-content-container {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px;
+        padding: 10px;
+        left: 70%; /* Update to left: 100% */
+        top:37%;
+        background-color: #f2f2f2;
+        border: 1px solid black;
+     }
+     img {
+        position: relative;
+     }
+
+    
+
+    /** Making the form responsive when the screen is smaller **/
+    @media screen and (max-width: 600px) {
+        .form-label, .form-input, input[type=submit], #icons {
+        width: 100%;
+        margin-top: 5px;
+        }
+    }

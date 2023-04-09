@@ -1,0 +1,65 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="../static/css/style.css" type="text/css">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded&family=Work+Sans&display=swap" rel="stylesheet"> 
+    
+<!-- FontAwesome Kit Code for Icons -->
+<script src="https://kit.fontawesome.com/fe7899cadb.js" crossorigin="anonymous"></script>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.1/jquery.hoverIntent.min.js"></script>
+<script src="../static/js/hamburger.js"></script>
+<script src="../static/js/routePopUp.js"></script>
+<!-- User-specific navigation bar -->
+<header>  
+    <div class="nav" id="user-nav">
+        <a href = "/" class="logo"><img src="../static/img/btmwp-logo.png" alt="BTMWP Logo" width="150"></a>
+    </div>
+    <hr>
+<!-- General navigation bar -->
+    <div class="nav" id="general-nav">
+        <!-- May need some sort of check to know if user is allowed to access certain pages (administrator vs student)-->
+        <div class="dropdown">
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <button class="dropbtn" onclick="openDropdown()">
+                <i class="fa-solid fa-bars dropdown-icon"></i>        
+            </button>
+            <!-- Navigation links (hidden by default) -->
+            <div class="dropdown-content" id="dropdownLinks">
+                <a href = "/routes">Pandas = Saving the World?</a>
+                <a href="/dataVisuals"></a>
+                <a href="/alerts">Bus Alerts</a>
+            </div>
+        </div>
+
+        <!-- TODO: if user is not logged in, don't show profile icon in navbar-->
+        <a href = "/profile"><i class="fa-solid fa-user profile-icon"></i></a> 
+        
+        <!-- Once user is logged in, Login should not be seen in profile-->
+        <a class="profile-icon" href="/login">Login</a>  
+    </div>
+</header> 
+<!-- Flash messages -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% for category, message in messages %}
+    <div class="{{ category }}">{{ message }}</div>
+  {% endfor %}
+{% endwith %}
+
+{% block content %}
+
+{% endblock %}
+
+<footer>
+    <span class="copyright">&copy;Pandas For ALL</span>
+    <a class="footer-link" href="/about">ABOUT</a>
+    <a class="footer-link" href="/contact">CONTACT</a>
+</footer>
